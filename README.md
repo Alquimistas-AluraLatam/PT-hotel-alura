@@ -26,7 +26,7 @@
 #### 🔹 1 - Clone
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://![fork](https://user-images.githubusercontent.com/101413385/169404781-7df6355b-3a15-472a-8d8e-fdb84d91a7bd.png)">
+     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169404781-7df6355b-3a15-472a-8d8e-fdb84d91a7bd.png">
 </p>
 
 ![fork](https://user-images.githubusercontent.com/101413385/169404781-7df6355b-3a15-472a-8d8e-fdb84d91a7bd.png)
