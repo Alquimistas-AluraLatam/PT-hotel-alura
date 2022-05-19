@@ -20,10 +20,17 @@
 
 ### Como fazer o download:
 ---
-1 - Faça o <strong>fork</strong> do projeto. No lado superior direito, ao clicar no ícone ele criará um repositório do projeto em sua conta pessoal.
+1 - Faça o <strong>fork</strong> do projeto. No lado superior direito, ao clicar no ícone ele criará um repositório do projeto em sua conta pessoal. </br>
 2- Após ter o repositório "forkado" para sua conta, você poderá realizar o download para sua máquina de duas formas:
 
 #### 🔹 1 - Clone
+
+<p align="center" >
+     <img width="600" heigth="600" src="https://![fork](https://user-images.githubusercontent.com/101413385/169404781-7df6355b-3a15-472a-8d8e-fdb84d91a7bd.png)">
+</p>
+
+![fork](https://user-images.githubusercontent.com/101413385/169404781-7df6355b-3a15-472a-8d8e-fdb84d91a7bd.png)
+
 #### 🔹 1 - .zip
 
 #### Ao clonar, ou realizar o dowload do projeto base, você tera essa apresentação:
