@@ -103,16 +103,16 @@ public class MenuUsuario extends JFrame {
 		lblNewLabel_1_1.setBounds(741, 163, 80, 17);
 		contentPane.add(lblNewLabel_1_1);
 		
-		JLabel lblNewLabel_1_1_1 = new JLabel("Búsqueda");
+		JLabel lblNewLabel_1_1_1 = new JLabel("Buscar");
 		lblNewLabel_1_1_1.setForeground(new Color(12, 138, 199));
 		lblNewLabel_1_1_1.setFont(new Font("Arial", Font.BOLD, 16));
-		lblNewLabel_1_1_1.setBounds(741, 274, 80, 17);
+		lblNewLabel_1_1_1.setBounds(741, 274, 77, 17);
 		contentPane.add(lblNewLabel_1_1_1);
 		
 		JButton btnBusqueda = new JButton("");
 		btnBusqueda.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				Busca busca = new Busca();
+				Buscar busca = new Buscar();
 				busca.setVisible(true);
 				dispose();
 			}

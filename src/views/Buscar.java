@@ -21,7 +21,7 @@ import javax.swing.JTabbedPane;
 import javax.swing.JDesktopPane;
 import java.awt.Toolkit;
 
-public class Busca extends JFrame {
+public class Buscar extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField txtBuscar;
@@ -34,7 +34,7 @@ public class Busca extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Busca frame = new Busca();
+					Buscar frame = new Buscar();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -46,7 +46,7 @@ public class Busca extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public Busca() {
+	public Buscar() {
 		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\lupa2.png"));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 910, 516);
@@ -80,7 +80,7 @@ public class Busca extends JFrame {
 		JLabel lblNewLabel_4 = new JLabel("Sistema de Busca");
 		lblNewLabel_4.setForeground(new Color(12, 138, 199));
 		lblNewLabel_4.setFont(new Font("Arial", Font.BOLD, 24));
-		lblNewLabel_4.setBounds(155, 42, 258, 42);
+		lblNewLabel_4.setBounds(155, 42, 212, 42);
 		contentPane.add(lblNewLabel_4);
 		
 		JButton btnSalir = new JButton("");

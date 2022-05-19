@@ -75,21 +75,22 @@ public class Login extends JFrame {
 		lblNewLabel_1_1_1_1.setBounds(409, 236, 133, 14);
 		contentPane.add(lblNewLabel_1_1_1_1);
 		
-		JButton btnNewButton = new JButton("Login");
-		btnNewButton.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\perfil-del-usuario.png"));
-		btnNewButton.addActionListener(new ActionListener() {
+		JButton btnLogin = new JButton("Login");
+		btnLogin.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\perfil-del-usuario.png"));
+		btnLogin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				MenuUsuario usuario = new MenuUsuario();
 				usuario.setVisible(true);
+				dispose();
 			}
 		});
-		btnNewButton.setBounds(409, 322, 103, 33);
-		contentPane.add(btnNewButton);
+		btnLogin.setBounds(409, 322, 109, 33);
+		contentPane.add(btnLogin);
 		
-		JButton btnNewButton_1 = new JButton("Cancelar");
-		btnNewButton_1.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\cerrar-24px.png"));
-		btnNewButton_1.setBounds(540, 322, 103, 33);
-		contentPane.add(btnNewButton_1);
+		JButton btnCancelar = new JButton("Cancelar");
+		btnCancelar.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\cerrar-24px.png"));
+		btnCancelar.setBounds(528, 322, 115, 33);
+		contentPane.add(btnCancelar);
 		
 		JLabel lblNewLabel_1 = new JLabel("New label");
 		lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\Ha-100px.png"));
