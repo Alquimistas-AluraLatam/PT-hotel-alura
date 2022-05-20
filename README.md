@@ -2,7 +2,7 @@
 ---
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169429301-6190c678-4f8f-4262-b344-2205915ce68c.png">
+     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169432786-7f0155d8-9724-4f4b-9476-bdadf7e95dc5.png">
 </p>
 
 ###  Primeiros Passos:
@@ -30,7 +30,8 @@
 </p>
 
 
-2- Após ter o repositório "forkado" para sua conta, clique na opção <strong>Code</strong>. Ele apresentará três formas para instalar o repositório em sua máquina, e destacamos duas:
+2- Após ter o repositório "forkado" para sua conta, verifica se a url da página é o mesmmo do repositório da sua conta, clique na opção <strong>Code</strong>. Ele apresentará três formas para instalar o repositório em sua máquina, e destacamos duas:
+
 
 #### 🔹 Clonar ou baixar o ZIP
 
@@ -47,11 +48,11 @@
 Já dentro do Editor e em seu lado direito, clique no <strong>Project Explorer</strong> com o botão direito do mouse ou em Files no menu que está na parte superior, escolha a opção <strong>Import</strong>.
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169431325-23a2e3cb-85a3-4298-8e60-64dfa58e2e6f.png">
+     <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/169431325-23a2e3cb-85a3-4298-8e60-64dfa58e2e6f.png">
 </p>
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169431266-ce978900-fa14-4421-86f9-aa78db549612.png">
+     <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/169431266-ce978900-fa14-4421-86f9-aa78db549612.png">
 </p>
 
 Será aberta a janela do <strong>Import</strong>, clique na opção <em>Existing Projects Into Workspace</em> e no botão <strong>Next</strong>.
