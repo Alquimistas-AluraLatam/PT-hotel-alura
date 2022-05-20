@@ -2,7 +2,7 @@
 ---
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/168887837-b6d26532-6782-48dc-92eb-e48bf6c57a15.png">
+     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169429301-6190c678-4f8f-4262-b344-2205915ce68c.png">
 </p>
 
 ###  Primeiros Passos:
@@ -15,28 +15,61 @@
 ### Analisando nosso repositório!
 ---
 ### Este é o repositório base do nosso projeto, nele voce encontrará:
-#### 🔹imagensAluraHotel:Pasta com imagens que você pode utilizar em seu projeto. Sinta-se a vontade para utilizar outras, caso deseje;
-#### 🔹src/views: Pasta com toda a interface gráfica das telas necessárias para desenvolver o programa;
+#### 🔹imagensAluraHotel: Pasta com imagens que você pode utilizar em seu projeto. Sinta-se a vontade para utilizar outras, caso deseje;
+#### 🔹src/views: Pasta com toda a interface gráfica das telas necessárias para desenvolver o programa.
 
 ### Como fazer o download:
 ---
-1 - Faça o <strong>fork</strong> do projeto. No lado superior direito, ao clicar no ícone ele criará um repositório do projeto em sua conta pessoal. </br>
-2- Após ter o repositório "forkado" para sua conta, você poderá realizar o download para sua máquina de duas formas:
+1 - Faça o <strong>fork</strong> do projeto. No lado superior direito, ao clicar no ícone ele criará um repositório do projeto em sua conta pessoal do GitHub. </br>
 
-#### 🔹 1 - Clone
+
+#### 🔹 Fork
 
 <p align="center" >
      <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169404781-7df6355b-3a15-472a-8d8e-fdb84d91a7bd.png">
 </p>
 
-![fork](https://user-images.githubusercontent.com/101413385/169404781-7df6355b-3a15-472a-8d8e-fdb84d91a7bd.png)
 
-#### 🔹 1 - .zip
+2- Após ter o repositório "forkado" para sua conta, clique na opção <strong>Code</strong>. Ele apresentará três formas para instalar o repositório em sua máquina, e destacamos duas:
+
+#### 🔹 Clonar ou baixar o ZIP
+
+1 - Para clonar, basta copiar a url destacada na imagem e localizada logo abaixo do HTTPS.
+
+2 - A segunda opção é baixar o código em um pacote <strong>"zipado"</strong>.
+
+<p align="center" >
+     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169426870-85eece56-744d-4888-8467-181703c7d644.png">
+</p>
+
+## Como importar o meu projeto no Eclipse?
+
+Já dentro do Editor e em seu lado direito, clique no <strong>Project Explorer</strong> com o botão direito do mouse ou em Files no menu que está na parte superior, escolha a opção <strong>Import</strong>.
+
+<p align="center" >
+     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169431325-23a2e3cb-85a3-4298-8e60-64dfa58e2e6f.png">
+</p>
+
+<p align="center" >
+     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169431266-ce978900-fa14-4421-86f9-aa78db549612.png">
+</p>
+
+Será aberta a janela do <strong>Import</strong>, clique na opção <em>Existing Projects Into Workspace</em> e no botão <strong>Next</strong>.
+
+<p align="center" >
+     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169431890-27f40955-27d8-4b4d-82df-d3507f85de6c.png">
+</p>
+
+Em seguida, clique no botão <strong>Browse</strong> e busque o projeto no diretório correspondente.
+
+<p align="center" >
+     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169432246-a769555c-daf9-490e-a0c7-908f7e5de967.png">
+</p>
 
 #### Ao clonar, ou realizar o dowload do projeto base, você tera essa apresentação:
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/168888313-d031e9e1-1449-4b73-bd3c-3102223097f3.png">
+     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169432388-35fdcea3-98ba-4e6c-9f0f-9b3f577b4011.png">
 </p>
 
 
