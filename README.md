@@ -67,7 +67,7 @@ Em seguida, clique no botão <strong>Browse</strong> e busque o projeto no diret
      <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169432246-a769555c-daf9-490e-a0c7-908f7e5de967.png">
 </p>
 
-#### Ao clonar, ou realizar o dowload do projeto base, você tera essa apresentação:
+#### Ao clonar, ou realizar o dowload do projeto base, você terá essa apresentação ao rodar o projeto no Eclipse:
 
 <p align="center" >
      <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169432388-35fdcea3-98ba-4e6c-9f0f-9b3f577b4011.png">
@@ -96,5 +96,8 @@ Va na aba esquerda do seu projeto e clique na engrenagem de configuração selec
 6) Não se esqueça de colocar um link ou vídeo de seu projeto no Linkedin! Marque com a #Oracle #AluraLatam 🏁
 
 
-<a href="https://www.linkedin.com/company/alura-latam/mycompany/" target="_blank">
+<strong>Oracle</strong><a href="https://www.linkedin.com/company/oracle/" target="_blank">
+  <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+
+<strong>Alura Latam</strong><a href="https://www.linkedin.com/company/alura-latam/mycompany/" target="_blank">
   <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
