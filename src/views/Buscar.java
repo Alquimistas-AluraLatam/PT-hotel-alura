@@ -25,7 +25,7 @@ public class Buscar extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField txtBuscar;
-	private JTable tbHuespedes;
+	private JTable tbHospedes;
 
 	/**
 	 * Launch the application.
@@ -83,43 +83,43 @@ public class Buscar extends JFrame {
 		lblNewLabel_4.setBounds(155, 42, 212, 42);
 		contentPane.add(lblNewLabel_4);
 		
-		JButton btnSalir = new JButton("");
-		btnSalir.addActionListener(new ActionListener() {
+		JButton btnSair = new JButton("");
+		btnSair.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				MenuUsuario usuario = new MenuUsuario();
 				usuario.setVisible(true);
 				dispose();
 			}
 		});
-		btnSalir.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\cerrar-sesion 32-px.png"));
-		btnSalir.setForeground(Color.WHITE);
-		btnSalir.setBackground(Color.WHITE);
-		btnSalir.setBounds(815, 416, 54, 41);
-		contentPane.add(btnSalir);
+		btnSair.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\cerrar-sesion 32-px.png"));
+		btnSair.setForeground(Color.WHITE);
+		btnSair.setBackground(Color.WHITE);
+		btnSair.setBounds(815, 416, 54, 41);
+		contentPane.add(btnSair);
 		
 		JTabbedPane panel = new JTabbedPane(JTabbedPane.TOP);
 		panel.setBounds(10, 127, 874, 265);
 		contentPane.add(panel);
 		
-		tbHuespedes = new JTable();
-		tbHuespedes.setFont(new Font("Arial", Font.PLAIN, 14));
-		panel.addTab("Hóspedes", new ImageIcon("C:\\Users\\Genesys\\Downloads\\persona.png"), tbHuespedes, null);
+		tbHospedes = new JTable();
+		tbHospedes.setFont(new Font("Arial", Font.PLAIN, 14));
+		panel.addTab("Hóspedes", new ImageIcon("C:\\Users\\Genesys\\Downloads\\persona.png"), tbHospedes, null);
 		
 		JTable tbReservas = new JTable();
 		tbReservas.setFont(new Font("Arial", Font.PLAIN, 14));
 		panel.addTab("Reservas", new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\calendario.png"), tbReservas, null);
 		
-		JButton btnEliminar = new JButton("");
-		btnEliminar.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\eliminar.png"));
-		btnEliminar.setBackground(SystemColor.menu);
-		btnEliminar.setBounds(651, 416, 54, 41);
-		contentPane.add(btnEliminar);
+		JButton btnDelete = new JButton("");
+		btnDelete.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\eliminar.png"));
+		btnDelete.setBackground(SystemColor.menu);
+		btnDelete.setBounds(651, 416, 54, 41);
+		contentPane.add(btnDelete);
 		
-		JButton btnEliminar_1 = new JButton("");
-		btnEliminar_1.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\cancelar.png"));
-		btnEliminar_1.setBackground(SystemColor.menu);
-		btnEliminar_1.setBounds(713, 416, 54, 41);
-		contentPane.add(btnEliminar_1);
+		JButton btnCancelar = new JButton("");
+		btnCancelar.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\cancelar.png"));
+		btnCancelar.setBackground(SystemColor.menu);
+		btnCancelar.setBounds(713, 416, 54, 41);
+		contentPane.add(btnCancelar);
 		
 		JLabel lblNewLabel_2 = new JLabel("");
 		lblNewLabel_2.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\Ha-100px.png"));

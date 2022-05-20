@@ -19,8 +19,8 @@ import java.awt.Toolkit;
 public class Login extends JFrame {
 
 	private JPanel contentPane;
-	private JTextField textField;
-	private JPasswordField passwordField;
+	private JTextField txtusuario;
+	private JPasswordField txtSenha;
 
 	/**
 	 * Launch the application.
@@ -56,19 +56,19 @@ public class Login extends JFrame {
 		lblNewLabel.setBounds(-53, 0, 422, 499);
 		contentPane.add(lblNewLabel);
 		
-		textField = new JTextField();
-		textField.setColumns(10);
-		textField.setBounds(409, 181, 234, 33);
-		contentPane.add(textField);
+		txtusuario = new JTextField();
+		txtusuario.setColumns(10);
+		txtusuario.setBounds(409, 181, 234, 33);
+		contentPane.add(txtusuario);
 		
 		JLabel lblNewLabel_1_1_1 = new JLabel("Usuario");
 		lblNewLabel_1_1_1.setFont(new Font("Arial", Font.PLAIN, 14));
 		lblNewLabel_1_1_1.setBounds(409, 156, 57, 14);
 		contentPane.add(lblNewLabel_1_1_1);
 		
-		passwordField = new JPasswordField();
-		passwordField.setBounds(409, 261, 234, 33);
-		contentPane.add(passwordField);
+		txtSenha = new JPasswordField();
+		txtSenha.setBounds(409, 261, 234, 33);
+		contentPane.add(txtSenha);
 		
 		JLabel lblNewLabel_1_1_1_1 = new JLabel("Senha");
 		lblNewLabel_1_1_1_1.setFont(new Font("Arial", Font.PLAIN, 14));

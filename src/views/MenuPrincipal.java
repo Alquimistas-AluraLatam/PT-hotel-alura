@@ -100,11 +100,11 @@ public class MenuPrincipal extends JFrame {
 		lblNewLabel_3.setFont(new Font("Arial", Font.PLAIN, 13));
 		panel_1.add(lblNewLabel_3);
 		
-		JButton btnSalir = new JButton("");
-		btnSalir.addActionListener(new ActionListener() {
+		JButton btnSair = new JButton("");
+		btnSair.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				Object [] opciones ={"Aceptar","Cancelar"};
-				 int eleccion = JOptionPane.showOptionDialog(rootPane,"En realidad desea realizar cerrar la aplicacion","Mensaje de Confirmacion",
+				Object [] opciones ={"Sim","Cancelar"};
+				 int eleccion = JOptionPane.showOptionDialog(rootPane,"Deseja fechar a aplicação?","Mensagem de confirmação",
 				 JOptionPane.YES_NO_OPTION,
 				 JOptionPane.QUESTION_MESSAGE,null,opciones,"Aceptar");
 				 if (eleccion == JOptionPane.YES_OPTION)
@@ -114,10 +114,10 @@ public class MenuPrincipal extends JFrame {
 				 }
 			}
 		});
-		btnSalir.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\cerrar-sesion 32-px.png"));
-		btnSalir.setForeground(Color.WHITE);
-		btnSalir.setBackground(Color.WHITE);
-		btnSalir.setBounds(832, 420, 44, 39);
-		panel.add(btnSalir);
+		btnSair.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\cerrar-sesion 32-px.png"));
+		btnSair.setForeground(Color.WHITE);
+		btnSair.setBackground(Color.WHITE);
+		btnSair.setBounds(832, 420, 44, 39);
+		panel.add(btnSair);
 	}
 }

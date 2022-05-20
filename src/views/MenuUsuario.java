@@ -83,19 +83,19 @@ public class MenuUsuario extends JFrame {
 		lblNewLabel_3.setFont(new Font("Arial", Font.PLAIN, 13));
 		panel_1.add(lblNewLabel_3);
 		
-		JButton btnSalir = new JButton("");
-		btnSalir.addActionListener(new ActionListener() {
+		JButton btnSair = new JButton("");
+		btnSair.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				MenuPrincipal principal = new MenuPrincipal();
 				principal.setVisible(true);
 				dispose();
 			}
 		});
-		btnSalir.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\cerrar-sesion 32-px.png"));
-		btnSalir.setForeground(Color.WHITE);
-		btnSalir.setBackground(Color.WHITE);
-		btnSalir.setBounds(823, 411, 50, 47);
-		contentPane.add(btnSalir);
+		btnSair.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\cerrar-sesion 32-px.png"));
+		btnSair.setForeground(Color.WHITE);
+		btnSair.setBackground(Color.WHITE);
+		btnSair.setBounds(823, 411, 50, 47);
+		contentPane.add(btnSair);
 		
 		JLabel lblNewLabel_1_1 = new JLabel("Reservas");
 		lblNewLabel_1_1.setForeground(new Color(12, 138, 199));
@@ -109,18 +109,18 @@ public class MenuUsuario extends JFrame {
 		lblNewLabel_1_1_1.setBounds(741, 274, 77, 17);
 		contentPane.add(lblNewLabel_1_1_1);
 		
-		JButton btnBusqueda = new JButton("");
-		btnBusqueda.addActionListener(new ActionListener() {
+		JButton btnBuscar = new JButton("");
+		btnBuscar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Buscar busca = new Buscar();
 				busca.setVisible(true);
 				dispose();
 			}
 		});
-		btnBusqueda.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\busqueda.png"));
-		btnBusqueda.setForeground(Color.WHITE);
-		btnBusqueda.setBackground(Color.WHITE);
-		btnBusqueda.setBounds(741, 302, 71, 73);
-		contentPane.add(btnBusqueda);
+		btnBuscar.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\busqueda.png"));
+		btnBuscar.setForeground(Color.WHITE);
+		btnBuscar.setBackground(Color.WHITE);
+		btnBuscar.setBounds(741, 302, 71, 73);
+		contentPane.add(btnBuscar);
 	}
 }
