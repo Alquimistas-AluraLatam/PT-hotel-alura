@@ -11,6 +11,8 @@
 #### 🔹Siga as orientações do que temos neste repositório 📚
 #### 🔹Visite a página do desafio clicando aqui! [Link do Challenge](https://www.alura.com.br/challenges/oracle-one-java) 📃
 
+### Importante!
+⚠️ Use o Java na versão 8 para ter compatibilidade.
 
 ### Analisando nosso repositório!
 ---
@@ -45,17 +47,18 @@
 
 ## Como importar o meu projeto no Eclipse?
 
-Já dentro do Editor e em seu lado direito, clique no <strong>Project Explorer</strong> com o botão direito do mouse ou em Files no menu que está na parte superior, escolha a opção <strong>Import</strong>.
+Uma vez dentro do Editor do lado direito, clique no <strong>Files</strong> que está no menu na parte superior, escolha a opção <em>Open Projects from File System</em> ou no <strong>Import</strong>. Outra opção está na parte do <strong>Project Explorer</strong>, clique no <strong>Project Explorer</strong> com o botão direito do mouse e escolha a opção <strong>Import</strong>.
+
+<p align="center" >
+     <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/169589417-ce957746-dca9-43ab-9261-3772ffee140b.png">
+</p>
 
 <p align="center" >
      <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/169431325-23a2e3cb-85a3-4298-8e60-64dfa58e2e6f.png">
 </p>
 
-<p align="center" >
-     <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/169431266-ce978900-fa14-4421-86f9-aa78db549612.png">
-</p>
 
-Será aberta a janela do <strong>Import</strong>, clique na opção <em>Existing Projects Into Workspace</em> e no botão <strong>Next</strong>.
+Se optar pelo <strong>Import</strong>, abrirá sua janela, clique na opção <em>Existing Projects Into Workspace</em> e no botão <strong>Next</strong>.
 
 <p align="center" >
      <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/169431890-27f40955-27d8-4b4d-82df-d3507f85de6c.png">
@@ -67,7 +70,28 @@ Em seguida, clique no botão <strong>Browse</strong> e busque o projeto no diret
      <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/169432246-a769555c-daf9-490e-a0c7-908f7e5de967.png">
 </p>
 
-#### Ao clonar, ou realizar o dowload do projeto base, você terá essa apresentação ao rodar o projeto no Eclipse:
+Após importar para o seu editor, é necessário instalar a biblioteca <strong>JCalendar</strong>, caso contrário o projeto apresentará um erro. </br>
+
+Para instalar, você precisa baixar o pacote através desse link:
+🔹 [Link para o JCalendar](https://toedter.com/jcalendar/)
+
+<p align="center" >
+     <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/169592420-7ea798d4-b7d2-4fd6-a03c-75f0fbc2e4bc.png">
+</p>
+
+A próxima etapa é extrair os arquivos para uma pasta e importar os arquivos da pasta <strong>lib</strong> para o Eclipse. Clique com o botão direito do mouse no projeto e escolha a opção <em>Build Path.</em>
+
+<p align="center" >
+     <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/169595799-f4fa1e4a-2f25-40a5-848c-254e77330ebb.png">
+</p>
+
+A janela apresentará duas opções, e para importar o <strong>Jcalendar</strong>, clique em <em>ClassPath</em> e depois em <em>Add External JARS</em>.
+
+<p align="center" >
+     <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/169596029-a9fa21ef-8d90-45a6-8aa2-be2d911d4074.png">
+</p>
+
+#### Ao clonar ou baixar o projeto base e ter o JCalendar instalado, você terá esta apresentação ao executar o projeto no Eclipse:
 
 <p align="center" >
      <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/169432388-35fdcea3-98ba-4e6c-9f0f-9b3f577b4011.png">
