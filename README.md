@@ -70,18 +70,17 @@ Em seguida, clique no botão <strong>Browse</strong> e busque o projeto no diret
 #### Ao clonar, ou realizar o dowload do projeto base, você terá essa apresentação ao rodar o projeto no Eclipse:
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169432388-35fdcea3-98ba-4e6c-9f0f-9b3f577b4011.png">
+     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/169432388-35fdcea3-98ba-4e6c-9f0f-9b3f577b4011.png">
 </p>
 
 #### Modelagem das tabelas:
 
 <p align="center" >
-     <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/169434993-1d494d38-d122-457d-b973-52b42270114b.png">
+     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/169434993-1d494d38-d122-457d-b973-52b42270114b.png">
+     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/169435061-970c686e-9ac3-4c55-87b3-f2b0d403bd43.png">
 </p>
 
-<p align="center" >
-     <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/169435061-970c686e-9ac3-4c55-87b3-f2b0d403bd43.png">
-</p>
+
 
 ## Como incluir meu projeto com a "#" do desafio?
 ---
