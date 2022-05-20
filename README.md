@@ -96,8 +96,10 @@ Va na aba esquerda do seu projeto e clique na engrenagem de configuração selec
 6) Não se esqueça de colocar um link ou vídeo de seu projeto no Linkedin! Marque com a #Oracle #AluraLatam 🏁
 
 
-<strong>Oracle</strong><a href="https://www.linkedin.com/company/oracle/" target="_blank">
-  <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<strong>Oracle</strong> 👇
+<a href="https://www.linkedin.com/company/oracle/" target="_blank">
+<img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
-<strong>Alura Latam</strong><a href="https://www.linkedin.com/company/alura-latam/mycompany/" target="_blank">
-  <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<strong>Alura Latam</strong> 👇
+<a href="https://www.linkedin.com/company/alura-latam/mycompany/" target="_blank">
+<img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
