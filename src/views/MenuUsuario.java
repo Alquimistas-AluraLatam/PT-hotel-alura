@@ -39,7 +39,7 @@ public class MenuUsuario extends JFrame {
 	 * Create the frame.
 	 */
 	public MenuUsuario() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\aH-40px.png"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(MenuUsuario.class.getResource("/imagens/aH-40px.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 906, 539);
 		contentPane = new JPanel();
@@ -50,17 +50,17 @@ public class MenuUsuario extends JFrame {
 		setLocationRelativeTo(null);
 		
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\menu-img.png"));
+		lblNewLabel.setIcon(new ImageIcon(MenuUsuario.class.getResource("/imagens/menu-img.png")));
 		lblNewLabel.setBounds(-56, 0, 741, 471);
 		contentPane.add(lblNewLabel);
 		
 		JLabel lblNewLabel_2 = new JLabel("");
-		lblNewLabel_2.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\Ha-100px.png"));
+		lblNewLabel_2.setIcon(new ImageIcon(MenuUsuario.class.getResource("/imagens/Ha-100px.png")));
 		lblNewLabel_2.setBounds(724, 32, 104, 107);
 		contentPane.add(lblNewLabel_2);
 		
 		JButton btnReserva = new JButton("");
-		btnReserva.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\1.png"));
+		btnReserva.setIcon(new ImageIcon(MenuUsuario.class.getResource("/imagens/reservas.png")));
 		btnReserva.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Reservas reserva = new Reservas();
@@ -91,7 +91,7 @@ public class MenuUsuario extends JFrame {
 				dispose();
 			}
 		});
-		btnSair.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\cerrar-sesion 32-px.png"));
+		btnSair.setIcon(new ImageIcon(MenuUsuario.class.getResource("/imagens/cerrar-sesion 32-px.png")));
 		btnSair.setForeground(Color.WHITE);
 		btnSair.setBackground(Color.WHITE);
 		btnSair.setBounds(823, 411, 50, 47);
@@ -117,7 +117,7 @@ public class MenuUsuario extends JFrame {
 				dispose();
 			}
 		});
-		btnBuscar.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\busqueda.png"));
+		btnBuscar.setIcon(new ImageIcon(MenuUsuario.class.getResource("/imagens/busqueda.png")));
 		btnBuscar.setForeground(Color.WHITE);
 		btnBuscar.setBackground(Color.WHITE);
 		btnBuscar.setBounds(741, 302, 71, 73);

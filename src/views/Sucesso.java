@@ -37,7 +37,7 @@ public class Sucesso extends JDialog {
 	 * Create the dialog.
 	 */
 	public Sucesso() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\aH-40px.png"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(Sucesso.class.getResource("/imagens/aH-40px.png")));
 		setBounds(100, 100, 376, 226);
 		getContentPane().setLayout(new BorderLayout());
 		contentPanel.setBackground(SystemColor.control);
@@ -47,7 +47,7 @@ public class Sucesso extends JDialog {
 		contentPanel.setLayout(null);
 		{
 			JLabel lblNewLabel = new JLabel("");
-			lblNewLabel.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\Ha-100px.png"));
+			lblNewLabel.setIcon(new ImageIcon(Sucesso.class.getResource("/imagens/Ha-100px.png")));
 			lblNewLabel.setBounds(123, 11, 100, 100);
 			contentPanel.add(lblNewLabel);
 		}

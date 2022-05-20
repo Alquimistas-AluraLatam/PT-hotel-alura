@@ -47,7 +47,7 @@ public class Buscar extends JFrame {
 	 * Create the frame.
 	 */
 	public Buscar() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\lupa2.png"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(Buscar.class.getResource("/imagens/lupa2.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 910, 516);
 		contentPane = new JPanel();
@@ -67,12 +67,12 @@ public class Buscar extends JFrame {
 			}
 		});
 		btnBuscar.setBackground(Color.WHITE);
-		btnBuscar.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\lupa2.png"));
+		btnBuscar.setIcon(new ImageIcon(Buscar.class.getResource("/imagens/lupa2.png")));
 		btnBuscar.setBounds(815, 75, 54, 41);
 		contentPane.add(btnBuscar);
 		
 		JButton btnEditar = new JButton("");
-		btnEditar.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\editar-texto.png"));
+		btnEditar.setIcon(new ImageIcon(Buscar.class.getResource("/imagens/editar-texto.png")));
 		btnEditar.setBackground(SystemColor.menu);
 		btnEditar.setBounds(587, 416, 54, 41);
 		contentPane.add(btnEditar);
@@ -91,7 +91,7 @@ public class Buscar extends JFrame {
 				dispose();
 			}
 		});
-		btnSair.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\cerrar-sesion 32-px.png"));
+		btnSair.setIcon(new ImageIcon(Buscar.class.getResource("/imagens/cerrar-sesion 32-px.png")));
 		btnSair.setForeground(Color.WHITE);
 		btnSair.setBackground(Color.WHITE);
 		btnSair.setBounds(815, 416, 54, 41);
@@ -103,26 +103,26 @@ public class Buscar extends JFrame {
 		
 		tbHospedes = new JTable();
 		tbHospedes.setFont(new Font("Arial", Font.PLAIN, 14));
-		panel.addTab("Hóspedes", new ImageIcon("C:\\Users\\Genesys\\Downloads\\persona.png"), tbHospedes, null);
+		panel.addTab("Hóspedes", new ImageIcon(Buscar.class.getResource("/imagens/persona.png")), tbHospedes, null);
 		
 		JTable tbReservas = new JTable();
 		tbReservas.setFont(new Font("Arial", Font.PLAIN, 14));
-		panel.addTab("Reservas", new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\calendario.png"), tbReservas, null);
+		panel.addTab("Reservas", new ImageIcon(Buscar.class.getResource("/imagens/calendario.png")), tbReservas, null);
 		
 		JButton btnDelete = new JButton("");
-		btnDelete.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\eliminar.png"));
+		btnDelete.setIcon(new ImageIcon(Buscar.class.getResource("/imagens/deletar.png")));
 		btnDelete.setBackground(SystemColor.menu);
 		btnDelete.setBounds(651, 416, 54, 41);
 		contentPane.add(btnDelete);
 		
 		JButton btnCancelar = new JButton("");
-		btnCancelar.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\cancelar.png"));
+		btnCancelar.setIcon(new ImageIcon(Buscar.class.getResource("/imagens/cancelar.png")));
 		btnCancelar.setBackground(SystemColor.menu);
 		btnCancelar.setBounds(713, 416, 54, 41);
 		contentPane.add(btnCancelar);
 		
 		JLabel lblNewLabel_2 = new JLabel("");
-		lblNewLabel_2.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\Ha-100px.png"));
+		lblNewLabel_2.setIcon(new ImageIcon(Buscar.class.getResource("/imagens/Ha-100px.png")));
 		lblNewLabel_2.setBounds(25, 10, 104, 107);
 		contentPane.add(lblNewLabel_2);
 		setResizable(false);

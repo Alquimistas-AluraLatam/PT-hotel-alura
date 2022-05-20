@@ -48,7 +48,7 @@ public class RegistroHospede extends JFrame {
 	 * Create the frame.
 	 */
 	public RegistroHospede() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\persona.png"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(RegistroHospede.class.getResource("/imagens/persona.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 910, 634);
 		contentPane = new JPanel();
@@ -100,12 +100,12 @@ public class RegistroHospede extends JFrame {
 		contentPane.add(lblNewLabel_1_1_1_1);
 		
 		JLabel lblNewLabel = new JLabel("New label");
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\registro.png"));
+		lblNewLabel.setIcon(new ImageIcon(RegistroHospede.class.getResource("/imagens/registro.png")));
 		lblNewLabel.setBounds(0, 11, 502, 556);
 		contentPane.add(lblNewLabel);
 		
 		JButton btnCancelar = new JButton("");
-		btnCancelar.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\cancelar.png"));
+		btnCancelar.setIcon(new ImageIcon(RegistroHospede.class.getResource("/imagens/cancelar.png")));
 		btnCancelar.setBackground(SystemColor.menu);
 		btnCancelar.setBounds(764, 543, 54, 41);
 		contentPane.add(btnCancelar);
@@ -117,7 +117,7 @@ public class RegistroHospede extends JFrame {
 				exito.setVisible(true);
 			}
 		});
-		btnSalvar.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\disquete.png"));
+		btnSalvar.setIcon(new ImageIcon(RegistroHospede.class.getResource("/imagens/disquete.png")));
 		btnSalvar.setBackground(SystemColor.menu);
 		btnSalvar.setBounds(700, 543, 54, 41);
 		contentPane.add(btnSalvar);
@@ -130,7 +130,7 @@ public class RegistroHospede extends JFrame {
 				dispose();
 			}
 		});
-		btnSair.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\cerrar-sesion 32-px.png"));
+		btnSair.setIcon(new ImageIcon(RegistroHospede.class.getResource("/imagens/cerrar-sesion 32-px.png")));
 		btnSair.setBackground(SystemColor.menu);
 		btnSair.setBounds(828, 543, 54, 41);
 		contentPane.add(btnSair);
@@ -147,7 +147,7 @@ public class RegistroHospede extends JFrame {
 		contentPane.add(txtTelefone);
 		
 		JLabel lblNewLabel_2 = new JLabel("");
-		lblNewLabel_2.setIcon(new ImageIcon("C:\\Users\\Genesys\\Documents\\imagenesAluraHotel\\Ha-100px.png"));
+		lblNewLabel_2.setIcon(new ImageIcon(RegistroHospede.class.getResource("/imagens/Ha-100px.png")));
 		lblNewLabel_2.setBounds(780, 11, 104, 107);
 		contentPane.add(lblNewLabel_2);
 		
