@@ -35,7 +35,7 @@
 
 #### 🔹 Clonar ou baixar o ZIP
 
-1 - Para clonar, basta copiar a url destacada na imagem e localizada logo abaixo do HTTPS.
+1 - Para clonar, basta copiar a <em>url</em> destacada na imagem e localizada logo abaixo do HTTPS, criar uma pasta em seu computador, abra o <em>cmd</em> ou o <em>git bash</em> dentro dessa pasta e em seguida insira o comando <strong>git clone</strong> e com o botão direito do mouse dentro do terminal clicar na opção <strong>Paste</strong> para colar a <em>url</em> e dar <em>Enter</em>. 
 
 2 - A segunda opção é baixar o código em um pacote <strong>"zipado"</strong>.
 
