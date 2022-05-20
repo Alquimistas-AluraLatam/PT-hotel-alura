@@ -14,7 +14,7 @@
 
 ### Analisando nosso repositório!
 ---
-### Este é o repositório base do nosso projeto, nele voce encontrará:
+### Este é o repositório base do nosso projeto, nele você encontrará:
 #### 🔹imagensAluraHotel: Pasta com imagens que você pode utilizar em seu projeto. Sinta-se a vontade para utilizar outras, caso deseje;
 #### 🔹src/views: Pasta com toda a interface gráfica das telas necessárias para desenvolver o programa.
 
@@ -73,12 +73,20 @@ Em seguida, clique no botão <strong>Browse</strong> e busque o projeto no diret
      <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169432388-35fdcea3-98ba-4e6c-9f0f-9b3f577b4011.png">
 </p>
 
+#### Modelagem das tabelas:
+
+<p align="center" >
+     <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/169434993-1d494d38-d122-457d-b973-52b42270114b.png">
+</p>
+
+<p align="center" >
+     <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/169435061-970c686e-9ac3-4c55-87b3-f2b0d403bd43.png">
+</p>
 
 ## Como incluir meu projeto com a "#" do desafio?
 ---
-1) Publique seu repositório no Github
-2) Publique seu projeto no GitHub Pages: [Como publicar meus projetos com Github Pages?](https://docs.github.com/pt/pages/getting-started-with-github-pages/creating-a-github-pages-site) 
-3) Utilize o tópico **#challengeonealurahotelbr**
+1) Tenha o <strong>Fork</strong> do projeto em seu repositório no Github.
+2) Utilize o tópico **#challengeonealurahotelbr**
 Va na aba esquerda do seu projeto e clique na engrenagem de configuração selecione o campo **topics** e insira a etiqueta **#**
 
 
@@ -87,7 +95,7 @@ Va na aba esquerda do seu projeto e clique na engrenagem de configuração selec
 ## Como faço a entrega final do meu Projeto?
 ---
 
-4) Preencha o formulário a seguir com seus dados pessoais, juntamente com o link do seu repositório e do seu GitHub Pages.
+4) Preencha o formulário a seguir com seus dados pessoais, juntamente com o link do seu repositório.
 
 🔹 [Link para o formulário](https://lp.alura.com.br/alura-latam-lp-entrega-de-challenge-one)
 ![formulario-entrega](https://user-images.githubusercontent.com/91544872/153610784-525ff005-d667-43f1-adcc-155b5274d87b.png)
