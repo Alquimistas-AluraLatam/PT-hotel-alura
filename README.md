@@ -30,7 +30,7 @@
 </p>
 
 
-2- Após ter o repositório "forkado" para sua conta, verifica se a url da página é o mesmmo do repositório da sua conta, clique na opção <strong>Code</strong>. Ele apresentará três formas para instalar o repositório em sua máquina, e destacamos duas:
+2- Após ter o repositório "forkado" para sua conta, verifica se a url da página é a do repositório da sua conta, clique na opção <strong>Code</strong>. Ele apresentará três formas para instalar o repositório em sua máquina, e destacamos duas:
 
 
 #### 🔹 Clonar ou baixar o ZIP
@@ -58,13 +58,13 @@ Já dentro do Editor e em seu lado direito, clique no <strong>Project Explorer</
 Será aberta a janela do <strong>Import</strong>, clique na opção <em>Existing Projects Into Workspace</em> e no botão <strong>Next</strong>.
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169431890-27f40955-27d8-4b4d-82df-d3507f85de6c.png">
+     <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/169431890-27f40955-27d8-4b4d-82df-d3507f85de6c.png">
 </p>
 
 Em seguida, clique no botão <strong>Browse</strong> e busque o projeto no diretório correspondente.
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169432246-a769555c-daf9-490e-a0c7-908f7e5de967.png">
+     <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/169432246-a769555c-daf9-490e-a0c7-908f7e5de967.png">
 </p>
 
 #### Ao clonar, ou realizar o dowload do projeto base, você terá essa apresentação ao rodar o projeto no Eclipse:
