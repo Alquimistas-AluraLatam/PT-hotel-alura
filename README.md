@@ -2,7 +2,7 @@
 ---
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169432786-7f0155d8-9724-4f4b-9476-bdadf7e95dc5.png">
+     <img width="300" heigth="300" src="https://user-images.githubusercontent.com/101413385/169432786-7f0155d8-9724-4f4b-9476-bdadf7e95dc5.png">
 </p>
 
 ###  Primeiros Passos:
