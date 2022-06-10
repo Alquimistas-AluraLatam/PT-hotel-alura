@@ -48,7 +48,7 @@ public class RegistroHospede extends JFrame {
 	 * Create the frame.
 	 */
 	public RegistroHospede() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage(RegistroHospede.class.getResource("/imagens/persona.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(RegistroHospede.class.getResource("/imagens/pessoa.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 910, 634);
 		contentPane = new JPanel();
@@ -56,6 +56,7 @@ public class RegistroHospede extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		setLocationRelativeTo(null);
+		setResizable(false);
 		
 		txtNome = new JTextField();
 		txtNome.setBackground(Color.WHITE);
@@ -89,7 +90,7 @@ public class RegistroHospede extends JFrame {
 		lblNewLabel_1_1.setBounds(556, 199, 255, 14);
 		contentPane.add(lblNewLabel_1_1);
 		
-		JLabel lblNewLabel_1_1_1 = new JLabel("Data de Nascimiento");
+		JLabel lblNewLabel_1_1_1 = new JLabel("Data de Nascimento");
 		lblNewLabel_1_1_1.setFont(new Font("Arial", Font.PLAIN, 14));
 		lblNewLabel_1_1_1.setBounds(556, 261, 255, 14);
 		contentPane.add(lblNewLabel_1_1_1);
@@ -130,7 +131,7 @@ public class RegistroHospede extends JFrame {
 				dispose();
 			}
 		});
-		btnSair.setIcon(new ImageIcon(RegistroHospede.class.getResource("/imagens/cerrar-sesion 32-px.png")));
+		btnSair.setIcon(new ImageIcon(RegistroHospede.class.getResource("/imagens/encerrar-sessao-32-px.png")));
 		btnSair.setBackground(SystemColor.menu);
 		btnSair.setBounds(828, 543, 54, 41);
 		contentPane.add(btnSair);
@@ -151,7 +152,8 @@ public class RegistroHospede extends JFrame {
 		lblNewLabel_2.setBounds(780, 11, 104, 107);
 		contentPane.add(lblNewLabel_2);
 		
-		JLabel lblNewLabel_4 = new JLabel("Registro Hospede");
+		JLabel lblNewLabel_4 = new JLabel("Registro de Hóspede");
+		lblNewLabel_4.setIcon(null);
 		lblNewLabel_4.setForeground(new Color(12, 138, 199));
 		lblNewLabel_4.setFont(new Font("Arial", Font.BOLD, 20));
 		lblNewLabel_4.setBounds(556, 79, 198, 42);

@@ -103,18 +103,18 @@ public class MenuPrincipal extends JFrame {
 		JButton btnSair = new JButton("");
 		btnSair.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				Object [] opciones ={"Sim","Cancelar"};
-				 int eleccion = JOptionPane.showOptionDialog(rootPane,"Deseja fechar a aplicação?","Mensagem de confirmação",
+				Object [] opcao ={"Sim","Cancelar"};
+				 int escolha = JOptionPane.showOptionDialog(rootPane,"Deseja fechar a aplicação?","Mensagem de confirmação",
 				 JOptionPane.YES_NO_OPTION,
-				 JOptionPane.QUESTION_MESSAGE,null,opciones,"Aceptar");
-				 if (eleccion == JOptionPane.YES_OPTION)
+				 JOptionPane.QUESTION_MESSAGE,null,opcao,"Aceitar");
+				 if (escolha == JOptionPane.YES_OPTION)
 				 {
 				 System.exit(0);
 				 }else{
 				 }
 			}
 		});
-		btnSair.setIcon(new ImageIcon(MenuPrincipal.class.getResource("/imagens/cerrar-sesion 32-px.png")));
+		btnSair.setIcon(new ImageIcon(MenuPrincipal.class.getResource("/imagens/encerrar-sessao-32-px.png")));
 		btnSair.setForeground(Color.WHITE);
 		btnSair.setBackground(Color.WHITE);
 		btnSair.setBounds(832, 420, 44, 39);

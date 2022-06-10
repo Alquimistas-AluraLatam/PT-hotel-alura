@@ -91,7 +91,7 @@ public class Buscar extends JFrame {
 				dispose();
 			}
 		});
-		btnSair.setIcon(new ImageIcon(Buscar.class.getResource("/imagens/cerrar-sesion 32-px.png")));
+		btnSair.setIcon(new ImageIcon(Buscar.class.getResource("/imagens/encerrar-sessao-32-px.png")));
 		btnSair.setForeground(Color.WHITE);
 		btnSair.setBackground(Color.WHITE);
 		btnSair.setBounds(815, 416, 54, 41);
@@ -103,7 +103,7 @@ public class Buscar extends JFrame {
 		
 		tbHospedes = new JTable();
 		tbHospedes.setFont(new Font("Arial", Font.PLAIN, 14));
-		panel.addTab("Hóspedes", new ImageIcon(Buscar.class.getResource("/imagens/persona.png")), tbHospedes, null);
+		panel.addTab("Hóspedes", new ImageIcon(Buscar.class.getResource("/imagens/pessoa.png")), tbHospedes, null);
 		
 		JTable tbReservas = new JTable();
 		tbReservas.setFont(new Font("Arial", Font.PLAIN, 14));

@@ -42,7 +42,7 @@ public class Login extends JFrame {
 	 * Create the frame.
 	 */
 	public Login() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage(Login.class.getResource("/imagens/perfil-del-usuario.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(Login.class.getResource("/imagens/perfil-do-usuario.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 700, 538);
 		contentPane = new JPanel();
@@ -50,6 +50,7 @@ public class Login extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		setLocationRelativeTo(null);
+		setResizable(false);
 		
 		JLabel lblNewLabel = new JLabel("New label");
 		lblNewLabel.setIcon(new ImageIcon(Login.class.getResource("/imagens/hotel.png")));
@@ -76,7 +77,7 @@ public class Login extends JFrame {
 		contentPane.add(lblNewLabel_1_1_1_1);
 		
 		JButton btnLogin = new JButton("Login");
-		btnLogin.setIcon(new ImageIcon(Login.class.getResource("/imagens/perfil-del-usuario.png")));
+		btnLogin.setIcon(new ImageIcon(Login.class.getResource("/imagens/perfil-do-usuario.png")));
 		btnLogin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				MenuUsuario usuario = new MenuUsuario();

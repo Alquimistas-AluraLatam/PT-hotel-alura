@@ -73,16 +73,6 @@ public class MenuUsuario extends JFrame {
 		btnReserva.setBounds(741, 186, 71, 73);
 		contentPane.add(btnReserva);
 		
-		JPanel panel_1 = new JPanel();
-		panel_1.setBackground(new Color(12, 138, 199));
-		panel_1.setBounds(0, 470, 894, 30);
-		contentPane.add(panel_1);
-		
-		JLabel lblNewLabel_3 = new JLabel("Desarrollado por Fulanita de Tal © 2022");
-		lblNewLabel_3.setForeground(new Color(12, 138, 199));
-		lblNewLabel_3.setFont(new Font("Arial", Font.PLAIN, 13));
-		panel_1.add(lblNewLabel_3);
-		
 		JButton btnSair = new JButton("");
 		btnSair.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -91,7 +81,7 @@ public class MenuUsuario extends JFrame {
 				dispose();
 			}
 		});
-		btnSair.setIcon(new ImageIcon(MenuUsuario.class.getResource("/imagens/cerrar-sesion 32-px.png")));
+		btnSair.setIcon(new ImageIcon(MenuUsuario.class.getResource("/imagens/encerrar-sessao-32-px.png")));
 		btnSair.setForeground(Color.WHITE);
 		btnSair.setBackground(Color.WHITE);
 		btnSair.setBounds(823, 411, 50, 47);
@@ -117,7 +107,7 @@ public class MenuUsuario extends JFrame {
 				dispose();
 			}
 		});
-		btnBuscar.setIcon(new ImageIcon(MenuUsuario.class.getResource("/imagens/busqueda.png")));
+		btnBuscar.setIcon(new ImageIcon(MenuUsuario.class.getResource("/imagens/buscar.png")));
 		btnBuscar.setForeground(Color.WHITE);
 		btnBuscar.setBackground(Color.WHITE);
 		btnBuscar.setBounds(741, 302, 71, 73);
