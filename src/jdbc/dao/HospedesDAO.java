@@ -1,10 +1,6 @@
 package jdbc.dao;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -43,8 +39,8 @@ private Connection connection;
 			throw new RuntimeException(e);
 		}
 	}
-	public List<Hospedes> listarHuespedes() {
-		List<Hospedes> hospedes = new ArrayList<Hospedes>();
+	public List<Hospedes> listarHospedes() {
+		List<Hospedes> hospedes = new ArrayList<>();
 		try {
 			String sql = "SELECT id, nome, sobrenome, data_nascimento, nacionalidade, telefone, idReserva FROM hospedes";
 
@@ -72,6 +68,22 @@ private Connection connection;
 				transformarResultSetEmHospede(hospedes, pstm);
 			}
 			return hospedes;
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
+		}
+	}
+
+	public void atualizar(String nome, String sobrenome, Date dataNascimento, String nacionalidade, String telefone, Integer idReserva, Integer id) {
+		try (PreparedStatement stm = connection
+				.prepareStatement("UPDATE hospedes SET nome = ?, sobrenome = ?, data_nascimento = ?, nacionalidade = ?, telefone = ?, idReserva = ? WHERE id = ?")) {
+			stm.setString(1, nome);
+			stm.setString(2, sobrenome);
+			stm.setDate(3, dataNascimento);
+			stm.setString(4, nacionalidade);
+			stm.setString(5, telefone);
+			stm.setInt(6, idReserva);
+			stm.setInt(7, id);
+			stm.execute();
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		}

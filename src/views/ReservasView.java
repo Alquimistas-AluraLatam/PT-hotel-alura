@@ -12,9 +12,12 @@ import java.awt.Color;
 import javax.swing.JTextField;
 import com.toedter.calendar.JDateChooser;
 import jdbc.controller.ReservasController;
+import jdbc.modelo.Reserva;
+
 import java.awt.Font;
 import javax.swing.JComboBox;
 import javax.swing.DefaultComboBoxModel;
+import java.sql.Date;
 import java.text.Format;
 import java.util.Calendar;
 import java.awt.event.MouseAdapter;
@@ -41,6 +44,7 @@ public class ReservasView extends JFrame {
 	private JLabel labelExit;
 	private JLabel lblNewLabel_3; 
 	private JLabel labelAtras;
+	private ReservasController reservasController;
 
 	/**
 	 * Launch the application.
@@ -64,6 +68,7 @@ public class ReservasView extends JFrame {
 	public ReservasView() {
 		super("Reserva");
 		this.reservaController = new ReservasController();
+
 		setIconImage(Toolkit.getDefaultToolkit().getImage(ReservasView.class.getResource("/imagenes/aH-40px.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 910, 560);
@@ -301,8 +306,7 @@ public class ReservasView extends JFrame {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				if (ReservasView.txtDataE.getDate() != null && ReservasView.txtDataS.getDate() != null) {
-					RegistroHospede registro = new RegistroHospede();
-					registro.setVisible(true);
+					salvarReserva();
 				} else {
 					JOptionPane.showMessageDialog(null, "Deve preencher todos os campos.");
 				}
@@ -336,6 +340,21 @@ public class ReservasView extends JFrame {
 			}
 			valor = dias * diaria;
 			txtValor.setText("" + valor);
+		}
+	}
+
+	private void salvarReserva() {
+		try {
+			String dataE = ((JTextField)txtDataE.getDateEditor().getUiComponent()).getText();
+			String dataS = ((JTextField)txtDataS.getDateEditor().getUiComponent()).getText();
+			Reserva reserva = new Reserva(Date.valueOf(dataE), Date.valueOf(dataS), ReservasView.txtValor.getText(), ReservasView.txtFormaPagamento.getSelectedItem().toString());
+			this.reservasController.salvar(reserva);
+			RegistroHospede hospede = new RegistroHospede(reserva.getId());
+			hospede.setVisible(true);
+			dispose();
+
+		} catch (Exception ex) {
+			JOptionPane.showMessageDialog(contentPane, "Error: " + ex.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
 		}
 	}
 	

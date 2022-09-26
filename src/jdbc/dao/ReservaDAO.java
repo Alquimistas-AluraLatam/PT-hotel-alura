@@ -88,22 +88,17 @@ public class ReservaDAO {
 	
 	public void atualizar(Date dataEntrada, Date dataSaida, String valor, String formaPagamento, Integer id) {
 		try (PreparedStatement stm = connection
-				.prepareStatement("UPDATE reservas SET data_entrada = ? data_saida = ?, valor = ?, formaPagamento = ? WHERE id = ?")) {
+				.prepareStatement("UPDATE reservas SET data_entrada = ?, data_saida = ?, valor = ?, formaPagamento = ? WHERE id = ?")) {
 			stm.setDate(1, dataEntrada);
 			stm.setDate(2, dataSaida);
 			stm.setString(3, valor);
 			stm.setString(4, formaPagamento);
-			stm.setInt(3, id);
+			stm.setInt(5, id);
 			stm.execute();
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		}
 	}
-	
-
-
-//			String sql = "SELECT MAX(id) FROM reservas;";
-
 
 						
 	private void transformarResultSetEmReserva(List<Reserva> reservas, PreparedStatement pstm) throws SQLException {
