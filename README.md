@@ -28,7 +28,7 @@
 Para te ajudar ainda mais nessa jornada de aprendizado, criamos esses vídeos de soluções com as partes estratégicas para realizar esse desafio. Lembre-se que esta é apenas uma das infinitas formas de realizar o desafio, aproveite para estudar os códigos e também compartilhar entre vocês suas resoluções e opiniões sobre o seu projeto.
 
 - [Faça uma conexão com o banco de dados e salve seus registros](https://www.youtube.com/watch?v=xSvhuCukFp0)
-- [Mostrar registros através do programa]()
+- [Mostrar registros através do programa](https://youtu.be/QHC5IS-E1KY)
 ---
 
 ## 📬 Entrega
